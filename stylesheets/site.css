@@ -8,7 +8,7 @@ body{
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-    overflow-y:hidden;
+	overflow-y:hidden;
 }
 #head {
 	font-family: Georgia, Times New Roman, Times, serif;
