@@ -1,0 +1,141 @@
+@charset "utf-8";
+body{
+	font-family: Georgia, Times New Roman, Times, serif;
+	margin: 0 auto 0 auto;
+	padding: 0;
+	text-align: left;
+	background-image: url("../images/03948r.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+#head {
+	font-family: Georgia, Times New Roman, Times, serif;
+	margin: 0px auto;
+	height: 150px;
+	width: 900px;
+}
+.image {
+	padding: 20px 30px 20px 30px;
+}
+#addr {
+	left: 84px;
+	top: 118px;
+}
+#homeIcon {
+	width: 50px;
+	padding: 0px;
+	margin: 2px 0px;
+	float: left;
+}
+.icon {
+	padding: 0px 10px 0px 10px;
+}
+.textPadding {
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.textPaddingMore {
+	padding-right: 20px;
+	padding-left: 40px;
+}
+#container {
+	font-family: Georgia, Times New Roman, Times, serif;
+	font-size: 18px;
+	padding: 20px;
+	margin: 0px auto;
+	background-color: rgba(255,255,255,0.6);
+	border-radius: 20px;
+	height: 550px;
+	width: 900px;
+}
+#leftpanel {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 18px;
+	width: 180px;
+	padding: 20px;
+	float: left;
+}
+#rightpanel {
+	font-family: Georgia, Times New Roman, Times, serif;
+	font-size: 16px;
+	width: 620px;
+	left: 210px;
+	right: 10px;
+	top: 10px;
+	padding: 30px;
+	float: right;
+}
+a:link {
+	text-decoration: none;
+	color: #3B0059;
+}
+a[href^="http://"] {
+    background: url("../images/external.png") center right no-repeat;
+    padding-right: 13px;
+}
+a[href^="http://www.linkedin.com/pub/meng-du/6b/a61/569/"] {
+    background: url("");
+    padding-right: 0px;
+}
+a[href$=".pdf"]
+{
+    background: url("../images/external_file.png") center right no-repeat;
+    padding-right: 13px;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:visited {
+	text-decoration: none;
+	color: #3B0059;
+}
+#copyright {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	margin: 0px auto;
+	color: #FFF;
+	text-align: center;
+}
+.name1 {
+	text-align:right;
+	padding: 5px 10px;
+	border-radius: 5px;
+	background-color: rgba(59,0,89,0.6);
+	color: #FFF;
+}
+.name1NoAli {
+	padding: 5px 10px;
+	border-radius: 5px;
+	background-color: rgba(59,0,89,0.6);
+	color: #FFF;
+}
+.name2 {
+	padding: 2px 10px;
+	border-radius: 5px;
+	background-color: rgba(255,255,255,0.7);
+}
+#currentPage {
+	padding: 5px 10px;
+	border-radius: 5px;
+	background-color: rgba(0,0,0,0.4);
+	color: #FFF;
+}
+#otherPage {
+	padding: 5px 10px;
+	border-radius: 5px;
+	background-color: rgba(255,255,255,0.25);
+}
+#toc {
+  position: fixed;
+  bottom: 0;
+  padding: 0px 0px;
+  margin: 2px 10px;
+}
+#toc #full { display: none; }
+/* Hide the full TOC by default */
+#toc:hover #full{
+  display: block; /* Show it on hover */
+  width: 170px;
+  padding: 0px 15px;
+}
