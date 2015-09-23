@@ -8,7 +8,6 @@ body{
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	overflow-y:hidden;
 }
 #head {
 	font-family: Georgia, Times New Roman, Times, serif;
@@ -49,7 +48,6 @@ body{
 	border-radius: 20px;
 	height: 550px;
 	width: 900px;
-	overflow: auto;
 }
 #leftpanel {
 	font-family: Verdana, Geneva, sans-serif;
