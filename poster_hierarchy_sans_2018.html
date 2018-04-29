@@ -19,10 +19,15 @@
     #header {
       padding: 1%;
       background-color: #f1f1f1;
+      width: 100%;
+      min-height: 50px;
+    }
+    #home-img {
+      float: left;
     }
     .title {
-      position: absolute;
-      margin-left: 20px;
+      width: 100%;
+      padding-left: 50px;
     }
     #survey {
       padding-top: 10%;
@@ -33,9 +38,9 @@
   </style>
   <body>
     <div id="header">
-      <a href="./index.html"><img src="images/ms.png" alt="Meng" width="40" height="40" class="image" align="center" /></a>
-      <span class="title" style="font-size: 12px;">Meng Du, Ruby Basyouni &#38; Carolyn Parkinson | SANS 2018</span>
-      <span class="title" style="margin-top: 13px;">Shared Neural Architecture for Navigating Space and Social Hierarchies</span>
+        <div id="home-img"><a href="./index.html"><img src="images/ms.png" alt="Meng" width="40" height="40" /></a></div>
+        <div class="title" style="font-size: 12px;">Meng Du, Ruby Basyouni &#38; Carolyn Parkinson | SANS 2018</div>
+        <div class="title">Shared Neural Architecture for Navigating Space and Social Hierarchies</div>
     </div>
 
     <form id="survey" action="javascript:submit();">
