@@ -1,10 +1,15 @@
 @charset "utf-8";
-body {
+html {
   font-family: 'Lato', Georgia, Times New Roman, 'Helvetica', sans-serif;
-  background-image: url("../images/03948r.jpg");
+  background-image: url('../images/03948r.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  height: 100%;
+  overflow: hidden;
 }
 .image {
   padding: 20px;
