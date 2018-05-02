@@ -20,7 +20,7 @@ html {
 }
 
 #header {
-  padding-top: 10%;
+  padding-top: 8%;
 }
 #m-image {
   margin: 20px;
@@ -37,14 +37,27 @@ html {
   padding: 15px;
 }
 #container {
-  padding-top: 60px;
-  text-align:center;
+  padding-top: 5%;
+  text-align: center;
   font-size: 18px;
   margin: 0px auto;
   background-color: rgba(255, 255, 255, 0);
   border-radius: 20px;
-  width: 500px;
+  width: 400px;
   height: 70px;
+}
+#poster {
+  display: inline-block;
+  margin-top: 5%;
+  padding: 2px 10px;
+  text-align: center;
+  font-size: 12px;
+  text-shadow: 0 0 5px #fff;
+  -moz-text-shadow: 0 0 5px #fff;
+  -webkit-text-shadow: 0 0 5px #fff;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 20px;
+  width: auto;
 }
 #copyright {
   position: absolute;
