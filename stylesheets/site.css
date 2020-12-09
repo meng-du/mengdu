@@ -43,8 +43,7 @@ html {
   margin: 0px auto;
   background-color: rgba(255, 255, 255, 0);
   border-radius: 20px;
-  width: 500px;
-  height: 70px;
+  width: 70%;
 }
 .banner {
   display: inline-block;
@@ -56,7 +55,7 @@ html {
   -moz-text-shadow: 0 0 5px #fff;
   -webkit-text-shadow: 0 0 5px #fff;
   background-color: rgba(255, 255, 255, 0.6);
-  border-radius: 20px;
+  border-radius: 15px;
   width: auto;
 }
 #copyright {
